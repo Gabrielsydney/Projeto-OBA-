@@ -1,0 +1,7 @@
+fun main(){
+ var lista = mutableListOf("Todos", "Educação Infantil", "Anos Iniciais - Ensino Fundamental", "Anos Finais - Ensino Fundamental", "Ensino Médio", "Níveis de Ensino não identificados")
+   lista.sort()
+   for (n in lista.indices){
+      println("[$n]: ${lista[n]}")
+   }
+}
